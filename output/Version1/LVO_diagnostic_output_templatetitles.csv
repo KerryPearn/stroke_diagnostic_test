@@ -1,0 +1,45 @@
+,0.366666667,0.366666667,0.366666667,0.366666667,0.179588191373124,4649.03823794574,341.238073442143,51758.7362521672
+,14.78333333,11.45,13.18333333,17.9281050859354,,3988.83304935608,1795.49396866376,341.238073442143
+,23.08333333,17.61666667,20.65,28.95,,8637.87128730183,2136.73204210591,25610.6262964447
+,34.03333333,25.51666667,30.65,51.66666667,,10613.6473786981,0,3098.92434850388
+,142.2,142.2,142.2,246.53333333,,4989.644595482,558.61301993148,28709.5506449486
+,26.5461044590099,19.9782968866679,24.0019345185856,44.1300825954206,,15603.2919741801,558.61301993148,52099.9743256094
+,,,,,,8844.7061489151,0,77369.362548612
+,,,,,,4158.03716290167,465.5108499429,3440.16242194603
+,,,,,,13002.7433118168,465.5108499429,53415.2361292116
+,,,,,,,,27394.2888413464
+,,,,,,,,1315.26180360227
+,,,,,,,,341.238073442143
+,,,,,,,,1656.49987704441
+,,,,,,,,1501790.63531721
+,,,,,,,,253.722033652878
+,,,,,,,,37459.8765795322
+,,,,,,,,279.30650996574
+,,,,,,,,558.61301993148
+,,,,,,,,197.86073165973
+,,,,,,,,1597.63323700403
+,,,,,,,,
+,,,,,,,,
+LVO_as_proportion_of_ischaemic_stroke,LVO,nonLVO,All thrombolysis patients,LVO thrombectomy,,CORRECT ALLOCATION,INCORRECT ALLOCATION,
+rate of mimics as a % of strokes,min time to thrombolysis,min time to thrombolysis,min time to thrombolysis,min time to thrombectomy,proportion_thrombectomy_requiring_onwards_transfer,Number of LVO admissions going to HASU first and it's correct,Number of LVO admissions going to HASU first and it's incorrect,Admissions going to HASU first that's correct
+Rate of haemorragics as % of ischaemic strokes,Lower quartile time to thrombolysis,Lower quartile time to thrombolysis,Lower quartile time to thrombolysis,Lower quartile time to thrombectomy,,Number of LVO admissions going to CSC first and it's correct,Number of LVO admissions going to CSC first and it's incorrect,Admissions going to HASU first that's incorrect
+"Stroke symptom onset time known (used to select the patients to do the LVO diagnostic test on, else to HASU as will not be eligible for any treatment)",median time to thrombolysis,median time to thrombolysis,median time to thrombolysis,median time to thrombectomy,,Number of LVO admissions going to right location first,Number of LVO admissions going to wrong location first,Admissions going to CSC first that's correct
+Decision bias: Any patient with a CSC less than this many minutes more (over a nearer HASU) will have their location determined by the diagnostic test.,Upper quartile time to thrombolysis,Upper quartile time to thrombolysis,Upper quartile time to thrombolysis,Upper quartile time to thrombectomy,,Number of nonLVO admissions going to HASU first and it's correct,Number of nonLVO admissions going to HASU first and it's incorrect,Admissions going to CSC first that's incorrect
+Specificity for stroke patients (used on the nonLVO stroke patients),max time to thrombolysis,max time to thrombolysis,max time to thrombolysis,max time to thrombectomy,,Number of nonLVO admissions going to CSC first and it's correct,Number of nonLVO admissions going to CSC first and it's incorrect,admissions_go_to_CSC_first
+Sensitivity for stroke patients (used on the LVO stroke patients),mean time to thrombolysis,mean time to thrombolysis,mean time to thrombolysis,mean time to thrombectomy,,Number of nonLVO admissions going to right location first,Number of nonLVO admissions going to wrong location first,admissions_go_to_HASU_first
+"Specificity for mimics (used on the mimics, assume less are likely to be misclassified as a LVO)",,,,,,Number of mimic admissions going to HASU first and it's correct,Number of mimic admissions going to HASU first and it's incorrect,admissions_go_to_right_first
+nonLVO patients that are suitable for thrombolysis,,,,,,Number of mimic admissions going to CSC first and it's correct,Number of mimic admissions going to CSC first and it's incorrect,admissions_go_to_wrong_first
+LVO patients that are suitable for thrombolysis,,,,,,Number of mimic admissions going to right location first,Number of mimic admissions going to wrong location first,admissions_go_to_HASU_final
+LVO patients that are suitable for thrombolysis,,,,,,Number of haemorrage admissions going to HASU first and it's correct,Number of haemorrage admissions going to HASU first and it's incorrect,admissions_go_to_CSC_final
+LVO patients that are suitable for thrombolysis,,,,,,Number of haemorrage admissions going to CSC first and it's correct,Number of haemorrage admissions going to CSC first and it's incorrect,admissions_moving_to_HASU
+"Of those LVO patients suitable for thrombolysis, proportion suitable for thrombectomy",,,,,,Number of haemorrage admissions going to right location first,Number of haemorrage admissions going to wrong location first,admissions_transferred_HASU_to_CSC
+Proportion patients had thrombolysis that are repatriated (from CSC to a nearer HASU),,,,,,,,admissions_transferred_CSC_to_HASU
+Proportion patients not had thrombolysis that are repatriated (from CSC to a nearer HASU),,,,,,,,minutes_travelling_to_right_first (useful?)
+Proportion of all admissions that are mimics,,,,,,,,admission_unnecessary_delay_thrombolysis
+Proportion of all admissions that are strokes,,,,,,,,unneccesary extra travelling
+Proportion of all admissions that are ischaemic,,,,,,,,mimic admissions going further to a CSC
+Proportion of all admissions that are haemorragics,,,,,,,,nonLVO admissions going further to a CSC
+Proportion of all admissions that are LVO,,,,,,,,LVO admisisons elig for trombolysis but not thrombectomy going unneccasarily further to CSC
+Proportion of all admissions that are nonLVO,,,,,,,,LVO not elig for any treatment going furhter to a CSC
+Proportion of all admissions that are eligible for thrombolysis,,,,,,,,
+Proportion of all admissions that are eligible for thrombectomy,,,,,,,,
